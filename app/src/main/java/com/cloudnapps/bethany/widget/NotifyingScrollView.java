@@ -1,4 +1,4 @@
-package com.k11.tour.widget;
+package com.cloudnapps.bethany.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

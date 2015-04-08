@@ -1,16 +1,12 @@
-package com.k11.tour;
+package com.cloudnapps.bethany;
 
 import android.graphics.drawable.Drawable;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ScrollView;
-
-import com.k11.tour.widget.NotifyingScrollView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -20,9 +16,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.k11.bethany.R.layout.activity_main);
 
-        mActionBarBackgroundDrawable = getResources().getDrawable(R.drawable.ab_background);
+        mActionBarBackgroundDrawable = getResources().getDrawable(com.k11.bethany.R.drawable.ab_background);
         mActionBarBackgroundDrawable.setAlpha(0);
 
         ActionBar actionBar = getSupportActionBar();
@@ -34,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
             NotifyingScrollFragment fragment = new NotifyingScrollFragment();
             fragment.setActionBar(actionBar);
             fragment.setActionBarBackgroundDrawable(mActionBarBackgroundDrawable);
-            transaction.replace(R.id.content_fragment, fragment);
+            transaction.replace(com.k11.bethany.R.id.content_fragment, fragment);
             transaction.commit();
         }
     }
@@ -44,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(com.k11.bethany.R.menu.menu_main, menu);
         return true;
     }
 
@@ -56,7 +52,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == com.k11.bethany.R.id.action_settings) {
             return true;
         }
 

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.k11.tour;
+package com.cloudnapps.bethany;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -46,7 +46,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
                 }
             });
-            textView = (TextView) v.findViewById(R.id.textView);
+            textView = (TextView) v.findViewById(com.k11.bethany.R.id.textView);
         }
 
         public TextView getTextView() {
@@ -70,7 +70,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         // Create a new view.
         View v = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.text_row_item, viewGroup, false);
+                .inflate(com.k11.bethany.R.layout.text_row_item, viewGroup, false);
 
         return new ViewHolder(v);
     }

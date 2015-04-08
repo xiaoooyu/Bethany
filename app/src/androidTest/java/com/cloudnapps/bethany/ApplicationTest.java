@@ -1,4 +1,4 @@
-package com.k11.tour;
+package com.cloudnapps.bethany;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

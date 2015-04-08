@@ -1,4 +1,4 @@
-package com.k11.tour;
+package com.cloudnapps.bethany;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -32,11 +32,11 @@ public class RecyclerViewFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.recycler_view_frag, container, false);
+        View rootView = inflater.inflate(com.k11.bethany.R.layout.recycler_view_frag, container, false);
 
         rootView.setTag(TAG);
 
-        mRecyclerView = (RecyclerView)rootView.findViewById(R.id.recyclerView);
+        mRecyclerView = (RecyclerView)rootView.findViewById(com.k11.bethany.R.id.recyclerView);
         mLayoutManager = new LinearLayoutManager(getActivity());
         mRecyclerView.setLayoutManager(mLayoutManager);
 
