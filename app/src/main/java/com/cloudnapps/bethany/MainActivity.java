@@ -16,9 +16,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.k11.bethany.R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
-        mActionBarBackgroundDrawable = getResources().getDrawable(com.k11.bethany.R.drawable.ab_background);
+        mActionBarBackgroundDrawable = getResources().getDrawable(R.drawable.ab_background);
         mActionBarBackgroundDrawable.setAlpha(0);
 
         ActionBar actionBar = getSupportActionBar();
@@ -30,17 +30,15 @@ public class MainActivity extends ActionBarActivity {
             NotifyingScrollFragment fragment = new NotifyingScrollFragment();
             fragment.setActionBar(actionBar);
             fragment.setActionBarBackgroundDrawable(mActionBarBackgroundDrawable);
-            transaction.replace(com.k11.bethany.R.id.content_fragment, fragment);
+            transaction.replace(R.id.content_fragment, fragment);
             transaction.commit();
         }
     }
 
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(com.k11.bethany.R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -52,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == com.k11.bethany.R.id.action_settings) {
+        if (id == R.id.action_settings) {
             return true;
         }
 

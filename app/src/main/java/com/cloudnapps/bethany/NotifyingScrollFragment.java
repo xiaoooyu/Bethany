@@ -32,11 +32,11 @@ public class NotifyingScrollFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(com.k11.bethany.R.layout.notifying_scroll_frag, container, false);
+        View rootView = inflater.inflate(R.layout.notifying_scroll_frag, container, false);
 
-        mHeader = rootView.findViewById(com.k11.bethany.R.id.image_header);
+        mHeader = rootView.findViewById(R.id.image_header);
 
-        mNotifyingScrollView = ((NotifyingScrollView) rootView.findViewById(com.k11.bethany.R.id.scroll_view));
+        mNotifyingScrollView = ((NotifyingScrollView) rootView.findViewById(R.id.scroll_view));
         mNotifyingScrollView.setOnScrollChangedListener(mOnScrollChangedListener);
 
         return rootView;
