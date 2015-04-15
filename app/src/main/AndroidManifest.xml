@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BlurActivity"
+            android:label="Blur Activity" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,6 +1,8 @@
 package com.cloudnapps.bethany;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -16,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
 
         mActionBarBackgroundDrawable = getResources().getDrawable(R.drawable.ab_background);
         mActionBarBackgroundDrawable.setAlpha(0);
@@ -27,9 +29,11 @@ public class MainActivity extends ActionBarActivity {
 
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            NotifyingScrollFragment fragment = new NotifyingScrollFragment();
-            fragment.setActionBar(actionBar);
-            fragment.setActionBarBackgroundDrawable(mActionBarBackgroundDrawable);
+//            NotifyingScrollFragment fragment = new NotifyingScrollFragment();
+//            fragment.setActionBar(actionBar);
+//            fragment.setActionBarBackgroundDrawable(mActionBarBackgroundDrawable);
+
+            Fragment fragment = new RecyclerViewFragment();
             transaction.replace(R.id.content_fragment, fragment);
             transaction.commit();
         }
@@ -52,6 +56,9 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        } else if(id == R.id.action_blur) {
+            Intent intent = new Intent(this, BlurActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

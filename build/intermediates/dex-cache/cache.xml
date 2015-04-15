@@ -2,46 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9ee961440722d5a1e0caffc6221c701aae32536d.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/classes-edf47533b2e85ca6388233c1b45029ac7c0dee0c.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/classes-1ff2b76d6340370e2266648d297b331eed72e1fc.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoyu/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-2735a4eafda1229816d2a4c4dea146f26924884c.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/classes-32b2f3b56d74d91a93d2cdfb4d427410151be6e6.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/xiaoyu/GitHub/K11Tour/app/build/intermediates/pre-dexed/debug/classes-0cc3725448b67cff4965615a81e1b840d2a90653.jar" />
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-7d87a59ab885ddec1547bd7537fd7f688a39c306.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-02a8c233794d86870f630a8452927d144b12c9da.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.1.4/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-f2474e2fb9d45e053e3b4a0f4d84d3f3414cfd25.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-185cab6786a8d0192179dc519b83e588eab733d0.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e9b4eabd13f42d1c28d35bc29ede297165a003dd.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-3a8ee4442a66ef0f85a81adee365fc18878c586b.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-9b1a9f60682a24e95fd666247cf434c4996afa38.jar" />
     </item>
 
 </items>

@@ -3,4 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_blur_activity2">Blur Activity</string>
+
+    <string name="transcirpt_placehoder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut felis sit amet libero molestie ornare. Quisque finibus pellentesque nunc ac faucibus. Integer eu metus tempus augue iaculis elementum. Aliquam dolor purus, scelerisque id sodales mattis, finibus ac tortor. Mauris rhoncus ligula in tellus venenatis tristique. Vivamus metus magna, ornare tempor turpis sit amet, blandit luctus mi. Suspendisse pretium ex nibh.
+
+Cras rhoncus libero vitae tellus facilisis, eu consectetur tellus hendrerit. Aenean eros urna, viverra in suscipit eu, consequat ut dui. Aenean lobortis non massa vitae tincidunt. Proin at ex nec neque maximus feugiat non eget dui. Pellentesque eget turpis quis nunc tempor dictum sit amet nec ligula. Phasellus iaculis tellus ut purus fringilla maximus. Quisque rhoncus laoreet finibus. Nulla eget fringilla orci. Fusce luctus suscipit gravida. Phasellus nunc nunc, ullamcorper tempus blandit vel, dictum vitae sapien.</string>
+
+    <string name="view_transcript">+ View Transcript</string>
+    <string name="hide_transcript">Hide Transcript</string>
 </resources>
