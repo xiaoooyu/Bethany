@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.k11.tour"
+        applicationId "com.cloudnapps.bethany"
         minSdkVersion 18
         targetSdkVersion 22
         versionCode 1
@@ -23,10 +23,15 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     // support library
+    compile 'com.android.support:support-v4:22+'
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.android.support:cardview-v7:21.0.+'
     compile 'com.android.support:recyclerview-v7:21.0.+'
 
     // AltBeacon library
     compile 'org.altbeacon:android-beacon-library:2+@aar'
+
+    // Picasso: image downloading and caching library
+    // http://square.github.io/picasso/
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

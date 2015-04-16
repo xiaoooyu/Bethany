@@ -1,8 +1,10 @@
 package com.cloudnapps.bethany;
 
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -47,6 +49,12 @@ public class RecyclerViewFragment extends Fragment {
         mRecyclerView.setAdapter(mAdapter);
 
         return rootView;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        getActivity().setTitle("List");
     }
 
     /**
@@ -123,7 +131,7 @@ public class RecyclerViewFragment extends Fragment {
             itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-
+                        navigateToDetail();
                     }
                 });
             mTextView = (TextView) itemView.findViewById(R.id.textView);
@@ -215,6 +223,14 @@ public class RecyclerViewFragment extends Fragment {
 
 
         }
+    }
+
+    private void navigateToDetail() {
+        Fragment fragment = new DetailFragment();
+        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        transaction.addToBackStack(null);
+        transaction.replace(R.id.content_fragment, fragment);
+        transaction.commit();
     }
 
     private class ViewHolderHeader extends RecyclerView.ViewHolder{
