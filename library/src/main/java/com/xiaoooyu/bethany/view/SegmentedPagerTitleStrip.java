@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
@@ -17,6 +18,7 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
     private static final byte DEFAULT_BOTTOM_BORDER_COLOR_ALPHA = 0x26;
     private static final int SELECTED_INDICATOR_THICKNESS_DIPS = 8;
     private static final int DEFAULT_SELECTED_INDICATOR_COLOR = 0xFF33B5E5;
+
 
     private static final int DEFAULT_DIVIDER_THICKNESS_DIPS = 1;
     private static final byte DEFAULT_DIVIDER_COLOR_ALPHA = 0x20;
@@ -32,9 +34,12 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
 
     private final Paint mDividerPaint;
     private final float mDividerHeight;
+    private final int mRadius;
 
     private int mSelectedPosition;
     private float mSelectionOffset;
+
+    private static final int DEFAULT_RADIUS = 5;
 
     public SegmentedPagerTitleStrip(Context context) {
         this(context, null);
@@ -68,6 +73,8 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
         mDividerHeight = DEFAULT_DIVIDER_HEIGHT;
         mDividerPaint = new Paint();
         mDividerPaint.setStrokeWidth((int) (DEFAULT_DIVIDER_THICKNESS_DIPS * density));
+
+        mRadius = (int) (DEFAULT_RADIUS * density);
     }
 
     @Override
@@ -107,7 +114,7 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
         }
 
         // Thin underline along the entire bottom edge
-        canvas.drawRect(0, height - mBottomBorderThickness, getWidth(), height, mBottomBorderPaint);
+//        canvas.drawRect(0, height - mBottomBorderThickness, getWidth(), height, mBottomBorderPaint);
 
         // Vertical separators between the titles
         int separatorTop = (height - dividerHeightPx) / 2;
@@ -117,6 +124,8 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
             canvas.drawLine(child.getRight(), separatorTop, child.getRight(),
                     separatorTop + dividerHeightPx, mDividerPaint);
         }
+        RectF rect = new RectF(0, 0, getWidth(), height);
+        canvas.drawRoundRect(rect, mRadius, mRadius, mBottomBorderPaint);
     }
 
     void onViewPagerPageChanged(int position, float positionOffset) {

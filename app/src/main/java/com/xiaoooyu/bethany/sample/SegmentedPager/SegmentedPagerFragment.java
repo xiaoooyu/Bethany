@@ -1,4 +1,4 @@
-package com.xiaoooyu.bethany.sample;
+package com.xiaoooyu.bethany.sample.SegmentedPager;
 
 import android.support.v4.view.ViewPager;
 
@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.xiaoooyu.bethany.sample.R;
 import com.xiaoooyu.bethany.view.SegmentedPagerLayout;
 
 import java.util.ArrayList;

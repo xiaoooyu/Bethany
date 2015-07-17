@@ -1,4 +1,4 @@
-package com.xiaoooyu.bethany.sample;
+package com.xiaoooyu.bethany.sample.SegmentedPager;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.xiaoooyu.bethany.sample.R;
 
 /**
  * Simple Fragment used to display some meaningful content for each page in the sample's
