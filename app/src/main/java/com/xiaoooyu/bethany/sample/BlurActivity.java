@@ -1,5 +1,8 @@
-package com.cloudnapps.bethany;
+package com.xiaoooyu.bethany.sample;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,10 +10,18 @@ import android.view.MenuItem;
 
 public class BlurActivity extends ActionBarActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_blur);
+        setContentView(R.layout.blur_activity);
+
+        BlurFrag01 frag = new BlurFrag01();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.add(R.id.content_fragment, frag);
+        transaction.commit();
+
+        getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
     }
 
 

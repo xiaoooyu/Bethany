@@ -1,4 +1,4 @@
-package com.cloudnapps.bethany;
+package com.xiaoooyu.bethany.sample;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 
-import com.cloudnapps.bethany.widget.NotifyingScrollView;
+import com.xiaoooyu.bethany.sample.widget.NotifyingScrollView;
 
 /**
  * Created by xiaoyu on 4/8/15.

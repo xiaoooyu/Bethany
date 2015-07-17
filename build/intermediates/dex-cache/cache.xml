@@ -9,6 +9,13 @@
         <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-7d87a59ab885ddec1547bd7537fd7f688a39c306.jar" />
     </item>
     <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-3a8ee4442a66ef0f85a81adee365fc18878c586b.jar" />
+    </item>
+    <item
         jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,11 +23,25 @@
         <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-02a8c233794d86870f630a8452927d144b12c9da.jar" />
     </item>
     <item
-        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.1.4/classes.jar"
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/Bethany/library/unspecified/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
-        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-f2474e2fb9d45e053e3b4a0f4d84d3f3414cfd25.jar" />
+        sha1="4764a4e03f1ac1262cf5b81a887f977524677aec">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-4a1a472be64b289cacc24c5cc5ff75739b06e2f3.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-9b1a9f60682a24e95fd666247cf434c4996afa38.jar" />
+    </item>
+    <item
+        jar="/Users/xiaoooyu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-2f2610013575b2a835f6e285f2290084f3dc944e.jar" />
     </item>
     <item
         jar="/Users/xiaoooyu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
@@ -35,20 +56,6 @@
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
         <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e9b4eabd13f42d1c28d35bc29ede297165a003dd.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-3a8ee4442a66ef0f85a81adee365fc18878c586b.jar" />
-    </item>
-    <item
-        jar="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/xiaoooyu/GitHub/Bethany/app/build/intermediates/pre-dexed/debug/classes-9b1a9f60682a24e95fd666247cf434c4996afa38.jar" />
     </item>
 
 </items>

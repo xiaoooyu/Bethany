@@ -1,4 +1,4 @@
-package com.cloudnapps.bethany;
+package com.example.xiaoooyu.bethany;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.cloudnapps.bethany;
+package com.xiaoooyu.bethany.sample;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -26,14 +26,9 @@ public class MainActivity extends ActionBarActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(mActionBarBackgroundDrawable);
 
-
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//            NotifyingScrollFragment fragment = new NotifyingScrollFragment();
-//            fragment.setActionBar(actionBar);
-//            fragment.setActionBarBackgroundDrawable(mActionBarBackgroundDrawable);
-
-            Fragment fragment = new RecyclerViewFragment();
+            Fragment fragment = new SegmentedPagerFragment();
             transaction.replace(R.id.content_fragment, fragment);
             transaction.commit();
         }

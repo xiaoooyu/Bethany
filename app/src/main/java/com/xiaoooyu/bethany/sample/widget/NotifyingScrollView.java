@@ -1,4 +1,4 @@
-package com.cloudnapps.bethany.widget;
+package com.xiaoooyu.bethany.sample.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

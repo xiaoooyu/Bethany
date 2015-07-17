@@ -1,4 +1,4 @@
-package com.cloudnapps.bethany;
+package com.xiaoooyu.bethany.sample;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ScrollView;
 
-import com.cloudnapps.bethany.widget.NotifyingScrollView;
+import com.xiaoooyu.bethany.sample.widget.NotifyingScrollView;
 
 /**
  * Created by xiaoooyu on 4/15/15.

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.cloudnapps.bethany;
+package com.xiaoooyu.bethany.sample;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
